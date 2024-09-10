@@ -1,0 +1,33 @@
+.parent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 70px;
+	
+	padding: 10px;
+	width:53%;
+   
+    margin-left: 20%;
+	background-color: white;
+	/* opacity: 93%; */
+	border-radius: 1%;
+	margin-bottom: 4%;
+	
+	
+
+}
+.parent > div {
+	height: 290px;
+	padding: 10px;
+	margin-bottom: 5%;	  
+}
+
+.modal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+  }
+
+
+

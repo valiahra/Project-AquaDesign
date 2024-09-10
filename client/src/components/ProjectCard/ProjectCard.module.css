@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 20px;
+}
+
+.title:hover {
+  cursor: pointer; /* Указатель курсора меняется на руку при наведении */
+}
+
+.card {
+  height: 500px;
+  overflow: hidden; /* Prevents overflow from the card */
+}
+
+.city {
+  font-size: 1rem; /* Smaller font size */
+  text-align: center;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; /* Prevents overflow with ellipsis */
+}
+
+.title {
+  text-align: center;
+}
+

@@ -1,0 +1,11 @@
+.inputs {
+    border-radius: 4px; 
+    margin: 5px;    
+}
+.image-upload-block {
+    /* width: 350px;
+    height: 200px;  */
+    overflow-y: auto;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+  }

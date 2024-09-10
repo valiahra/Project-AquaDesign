@@ -1,0 +1,193 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+  
+}
+
+.header h1 {
+  font-family: 'Nunito', sans-serif;
+  justify-content: flex-start;
+  font-weight: 800; 
+  font-size: 2.5rem; 
+  color: #0039a6;
+  text-align: center; 
+  margin: 20px 0; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  letter-spacing: 0.05em; 
+  padding-left: 210px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem; 
+  }
+}
+
+.header img {
+  position: absolute;
+  margin-bottom: 30px;
+  left: 20px;
+  margin-right: 20px;
+}
+
+h3 {
+  font-size: 3.0rem;
+}
+
+.photos {
+  position: relative;
+}
+
+.textLink {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%); 
+  background-color: rgba(61, 61, 61, 0.425); 
+  padding: 15px 30px;
+  border-radius: 8px;
+  display: inline-block;
+  z-index: 2; 
+}
+
+.textLink ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+}
+
+.textLink li {
+  margin: 10px 0; 
+}
+
+.textLink a {
+  color: white;
+  text-decoration: none; 
+  font-weight: bold;
+  font-size: 25px;
+  transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+
+.textLink a:hover {
+  color: #0039a6; 
+  text-shadow: 0 0 15px #518bbebf, 
+               0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.sliderWrapper img, .video {
+  height: 750px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+}
+
+.slideText {
+  position: absolute;
+  top: 35px;
+  left: 73%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 3.0rem;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  text-align: center; 
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  color: white;
+  margin: 15px 0 0 0; 
+}
+
+.featuresList li {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin: 5px 0; 
+}
+
+.featuresList li svg {
+  margin-right: 10px; 
+}
+
+.highlightedText {
+  position: absolute;
+  top: 5%; 
+  left: 45%; 
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5rem; 
+  font-weight: bold;
+  color: #ffffffbf;
+  text-align: center; 
+  background-color: rgba(61, 61, 61, 0.425); 
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  width: fit-content; 
+}
+
+.slideTextLeft {
+  position: absolute;
+  top: 20%; 
+  left: 75%; 
+  transform: translate(-50%, -50%); 
+  z-index: 10;
+  text-align: center; 
+  color: white;
+  background-color: rgba(61, 61, 61, 0.425); 
+  padding: 20px; 
+  border-radius: 10px; 
+  width: 44%; 
+  max-width: 50%; 
+}
+
+.slideTextLeft h3 {
+  margin-bottom: 10px; 
+  font-size: 2.5rem; 
+}
+
+.highlightedNumber {
+  font-size: 3.5rem; 
+  color: #4d9ce0; 
+  font-weight: bold;
+  text-shadow: 0 0 10px #518bbebf, 0 0 15px rgba(0, 0, 0, 0.5); 
+}
+
+
+.customModalContent {
+  width: 60vw;
+  max-width: 60vw;
+ 
+}
+.customModalBody {
+  margin: 20px;
+}
+
+.aspectVideo {
+  width: 100%;
+}
